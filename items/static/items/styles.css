@@ -1,0 +1,76 @@
+/* Body and Font */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: url("/static/items/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+h1 {
+    color: #e26d4a;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Cards */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.card-title:hover {
+    color: #4a90e2;
+    text-decoration: underline;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #4a90e2;
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #357ABD;
+    color: #fff;
+}
+
+.btn-warning {
+    background-color: #f5a623;
+    border: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: #d48c1e;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #e94b3c;
+    border: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #c73a2c;
+    color: white;
+}
+
+/* Container */
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
